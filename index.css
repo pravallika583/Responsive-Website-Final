@@ -1,0 +1,111 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.logo{
+    width:50px;
+    height:50px;
+  
+}
+h2{
+    
+    margin-left:30px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.options{
+    font-size:18px;
+    font-weight: 500;
+    margin-right:5px;
+}
+.login{
+    border-color:rgb(6, 94, 6);
+    border-style:solid;
+    border-width:2px;
+    border-radius:5px;
+}
+li a:hover{
+    transform: scale(1.2);
+}
+
+.home{
+    height:100vh;
+}
+.image{
+    height:300px;
+    width:300px;
+    background-size: cover;
+}
+h1{
+    font-size:70px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.content{
+    color:white;
+}
+.bg-container{
+    background-image:url("images/col-1.webp");
+    max-height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:25px;
+    overflow:auto;
+}
+.about-image{
+    background-size: cover;
+    height:400px;
+    width:100%;
+    background-color:transparent;
+    background-position: center;
+    border-radius:400px 150px 400px 150px;
+}
+.about-image:hover{
+    transform: scaleX(-1);
+    width:450px;
+}
+.about-description{
+    color:white;
+    font-family:"Roboto";
+    font-weight:500;
+    font-size:20px;
+    width:100%;
+    overflow:auto;
+}
+.bg-product-container
+{
+    background-image:url("");
+    max-height:100vh;
+    overflow:auto;
+}
+.card{
+    background-color:white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:20px;
+    border-radius:8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.product{
+    height:200px;
+    width:87%;
+}
+.reviews-flex{
+    height:100vh;
+}
+.contact-flex{
+    max-height:100vh;
+}
+.contact-section{
+    height:100vh;
+    padding:40px;
+    background-image: url("images/contactPage.webp");
+    background-repeat: no-repeat;
+    color:white;
+}
+
+
